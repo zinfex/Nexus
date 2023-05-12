@@ -1,0 +1,13 @@
+@media (max-width: 720px) {
+    #menu span {
+        display: none;
+    }
+    #info {
+        margin-left: 3.7%;
+    }
+    #info a .botao{
+        transform: scale(1.3);
+
+        margin-left: 20px;
+    }
+}
