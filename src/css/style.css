@@ -11,7 +11,7 @@ body {
 }
 
 #slideshow {
-    background-image: url("src/imgs/slideshow.jpg");
+    background-image: url("../imgs/slideshow.jpg");
     background-size: cover;
     height: 100vh;
 
