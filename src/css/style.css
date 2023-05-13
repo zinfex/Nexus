@@ -11,10 +11,9 @@ body {
 }
 
 #slideshow {
-    background-image: url("../imgs/slideshow.jpg");
+    background-image: url('../imgs/slideshow.jpg');
     background-size: cover;
     height: 100vh;
-
 }
 
 header {
@@ -50,7 +49,6 @@ header {
     cursor: pointer;
 }
 #menu .bloco img:hover {
-    transform: scale(0.9);
     background-color: rgb(132, 187, 255);
 }
 
@@ -98,3 +96,43 @@ header {
     filter: invert(1);
 }
 
+#coluna {
+    background-color: rgb(62, 126, 236);
+    width: 250px;
+    height: 450px;
+    display: flex;
+    position: fixed;
+    right: 0;
+    margin-right: 25px;
+    border-radius: 5px;
+    display: none;
+    animation: coluna-animation 500ms ease-in-out;
+}
+#coluna.back {
+    background-color: rgb(62, 126, 236);
+    width: 250px;
+    height: 450px;
+    display: flex;
+    position: fixed;
+    right:-300px;
+    margin-right: 25px;
+    border-radius: 5px;
+
+    animation: coluna-voltar 500ms ease-in-out;
+}
+@keyframes coluna-animation {
+    from {
+        right: -300px;
+    } 
+    to {
+        right: 0;
+    }
+}
+@keyframes coluna-voltar {
+    from {
+        right: 0;
+    }
+    to {
+        right: -300px;
+    }
+}
