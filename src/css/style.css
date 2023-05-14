@@ -73,7 +73,6 @@ header {
     text-decoration: none;
     color: white;
 }
-
 #info .botao {
     margin-top: 60px;
     font-size: 23px;
@@ -84,6 +83,7 @@ header {
     border-style: solid;
     transition: 300ms ease-in-out;
     font-family: 'Kanit', sans-serif;
+    display: block;
 }
 
 #info .botao:hover {
@@ -162,7 +162,6 @@ header {
     position: absolute;
     left: 50%;    
 }
-
 
 #down a img {
     height: 25px;
