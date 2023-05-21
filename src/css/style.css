@@ -32,6 +32,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
   z-index: 3;
+
 }
 #menu .bloco img {
   padding: 10px;
@@ -87,11 +88,11 @@ body {
   height: 70px;
   width: 160px;
 
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
 
   margin-top: 60px;
-  padding: 12px;
+  padding: 15px;
 
   border-radius: 35px;
   border-style: solid;
@@ -197,7 +198,9 @@ main {
 #section1 {
   background-color: white;
   width: 60%;
-  height: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 #section2 {
@@ -211,18 +214,14 @@ main {
 
 #section1 #texto {
   margin: 30px;
+  word-wrap: break-word;
+  
 }
 
 #section1 h2 {
-  margin-top: 100px;
   color: rgb(45, 31, 167);
   font-family: "Bebas Neue", sans-serif;
   font-size: 100px;
-}
-#section1 p {
-  color: #162141;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*SECTION*/
@@ -277,7 +276,9 @@ footer {
   text-align: center;
 }
 
-
+.container {
+  z-index: 1;
+}
 
 /* MAIN ANIMAÇÃO */
 .white {
