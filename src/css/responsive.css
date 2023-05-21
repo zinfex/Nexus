@@ -30,9 +30,6 @@
     #section2{
         display: none;
     }
-    #down {
-        display: none;
-    }
     footer {
         flex-direction: column;
         height: 450px;
