@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    background: linear-gradient(-45deg, rgb(75, 83, 132), #0e2be6, #5eb1d0, #25273b);
+    background-size: 400% 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloco {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 270px;
+    box-shadow: black 1px 1px 9px 3px;
+}
+
+#info h1 {
+    font-size: 30px;
+    color: white;
+}

@@ -39,3 +39,9 @@
         height: 450px;
     }
 }
+
+@media (max-width: 345px) {
+    #section1 p{
+        display: none;
+    }
+}
