@@ -9,6 +9,6 @@ function menu() {
     } else {
         coluna.style.display = 'block'
         colunavoltar.classList.remove('back')
-        image.src = '../src/imgs/x-solid.png'
+        image.src = '../src/imgs/x-solid.svg'
     }
 }
