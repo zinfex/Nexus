@@ -164,30 +164,25 @@ body {
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
 }
 #down span {
-  position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
-  -webkit-text-stroke-color: #ffffff;
   font-size: 15px;
-  bottom: 15px;
-  left: 46.3%;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  display: flex;
+  justify-content: center;
 }
 #down a {
-  position: absolute;
-  left: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 #down a img {
   height: 25px;
   filter: invert(1);
   cursor: pointer;
-  transition: 300ms ease-in-out;
-}
-#down a img:hover {
-  transform: scale(1.5);
+  transition: 100ms ease-in-out;
 }
 
 main {
