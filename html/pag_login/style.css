@@ -2,11 +2,9 @@ body {
     height: 100vh;
     background: linear-gradient(-45deg, rgb(75, 83, 132), #0e2be6, #5eb1d0, #25273b);
     background-size: 400% 400%;
+    
     display: flex;
-    justify-content: center;
     align-items: center;
-
-    display: flex;
     justify-content: space-around;
 }
 
@@ -16,10 +14,30 @@ body {
     height: 500px;
     border-radius: 15px;
     margin-right: 270px;
-    box-shadow: black 1px 1px 9px 3px;
+    box-shadow: rgba(0, 0, 0, 0.332) 1px 1px 16px 3px;
 }
 
 #info h1 {
     font-size: 30px;
     color: white;
+}
+
+@media (max-width: 1160px) {
+    body {
+        flex-direction: column;
+    }
+    #bloco {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 442px) {
+    #bloco {
+        width: 300px;
+        height: 450px;
+    }
+    #info h1 {
+        margin-top: 100px;
+        font-size: 20px;
+    }
 }

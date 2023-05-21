@@ -42,6 +42,7 @@ body {
   background-color: rgb(62, 126, 236);
   transition: 200ms ease-in-out;
   cursor: pointer;
+  transform: rotate(3.142rad);
 }
 #menu .bloco img:hover {
   background-color: rgb(132, 187, 255);
