@@ -52,3 +52,32 @@
         margin-top: 60px;
     }
 }
+
+@media (max-width: 1220px) {
+    .newsletter {flex-direction: column; height: 380px;}
+
+    .newsletter h1 {
+        font-size: 25px; 
+        max-width: 300px; 
+        text-align: center;
+        margin-left: 85px;
+        margin-bottom: 50px;
+    }
+
+    .form-box {width: fit-content;}
+    .form-box input {width: 400px;}
+}
+
+@media (max-width: 705px) {
+    .newsletter {
+        width: 100%;
+        margin-left: 0;
+    }
+    .form-box input {width: 204px;}
+    
+}
+
+@media (max-width: 375px) {
+    .form-box button {color: white; margin-left: 25%;}
+    .form-box input {width: 150px; padding: 10px 10px;}
+}

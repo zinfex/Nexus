@@ -221,14 +221,59 @@ main {
 }
 
 /*SECTION*/
-section {
+.sanfona {
   margin-top: 30px;
   height: 500px;
   display: flex;
   align-items: center;
 }
 
+/* NEWSLATTER */
+.newsletter {
+  width: 80%;
+  height:200px;
+  background-color: #0056A8;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 100px;
+  margin-left: 10%;
+}
+
+.newsletter h1 {
+  font-size: 30px;
+  max-width: 270px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.form-box {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+}
+
+.form-box input {
+  height: 60px;
+  width: 430px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+
+.form-box button {
+  padding: 15px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #10395f;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FOOTER */
 footer {
   background-color: #162141;
   width: 100%;
@@ -275,6 +320,8 @@ footer {
 .container {
   z-index: 1;
 }
+
+
 
 /* MAIN ANIMAÇÃO */
 .white {
