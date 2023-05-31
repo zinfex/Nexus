@@ -6,6 +6,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+
+#voltar:hover {
+    transform: scale(1.2);
+
 }
 
 #bloco {
@@ -15,6 +28,11 @@ body {
     border-radius: 15px;
     margin-right: 270px;
     box-shadow: rgba(0, 0, 0, 0.332) 1px 1px 16px 3px;
+    padding: 70px 15px;
+}
+
+button:hover {
+    background-color: rgba(142, 171, 219, 0.39);
 }
 
 #info h1 {
@@ -41,3 +59,4 @@ body {
         font-size: 20px;
     }
 }
+

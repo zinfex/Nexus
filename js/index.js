@@ -3,7 +3,7 @@ let colunavoltar = document.querySelector('#coluna')
 
 function menu() {
     if (coluna.style.display == 'block') {
-        colunavoltar.classList.add('back')
+        colunavoltar.classList = 'back'
         coluna.style.display = 'inherit'
         image.src = 'src/imgs/menu.png'
     } else {
