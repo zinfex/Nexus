@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <body>
     <div id="slideshow">
         
@@ -24,8 +25,6 @@
             <div id="logo">
                 <img src="src/imgs/logo.png">
             </div>
-
-            
         </header>
         
         <div class='white'>
@@ -38,7 +37,20 @@
             </div>
         </div>
         
-        <div id="coluna"></div>
+        <div id="coluna">
+          <a class="btn" id="login" href="html/pag_login/login.html"><i class="fa-solid fa-user"></i> FAZER LOGIN</a>
+          <a class="btn" id="register" href="html/pag_login/login.html"><i class="fa-solid fa-user-plus"></i> CRIAR CONTA</a>
+          <div class="dropdown" class="btn" id="idioma">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-globe"></i> IDIOMA
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Português - Brasil</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+        </div>
         
         <div id="info">
             <h1>Nexus</h1>

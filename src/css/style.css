@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 
 * {
   margin: 0;
@@ -128,7 +130,20 @@ body {
   display: none;
   animation: coluna-animation 500ms ease-in-out;
   z-index: 4;
+  padding: 30px;
+  font-family: 'Oswald', sans-serif;
 }
+
+#coluna .btn {
+  border-radius: 30px;
+  border-color: black;
+  margin-top: 20px;
+}
+
+#coluna .btn:hover {
+  background-color: #0a0f3d;
+}
+
 #coluna.back {
   background-color: rgb(62, 126, 236);
   width: 250px;
@@ -138,7 +153,6 @@ body {
   right: -300px;
   margin-right: 25px;
   border-radius: 5px;
-
   animation: coluna-voltar 500ms ease-in-out;
 }
 @keyframes coluna-animation {
@@ -161,7 +175,7 @@ body {
 #down {
   position: absolute;
   display: flex;
-  bottom: 30px;
+  bottom: 20px;
   width: 100%;
   justify-content: center;
   flex-direction: column;

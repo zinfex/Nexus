@@ -69,12 +69,12 @@
 }
 
 @media (max-width: 705px) {
+    #coluna {width: 200px;}
     .newsletter {
         width: 100%;
         margin-left: 0;
     }
     .form-box input {width: 204px;}
-    
 }
 
 @media (max-width: 375px) {
